@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 //TemplateProcessor Class
 class TemplateProcessor {
     constructor(template) {
