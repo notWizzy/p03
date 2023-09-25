@@ -1,1 +1,42 @@
 
+
+table {
+    border: 1px solid black;
+}
+
+/* Styling for cells not in the current month */
+td.not-in-month {
+    background-color: transparent;
+}
+
+td.not-in-month:hover {
+    cursor: default;
+    background-color: transparent;
+    color: black;
+}
+
+/* Styling for regular cells */
+td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+/* Styling for hovered cells and the month selector */
+td:hover,
+.month-selector:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
