@@ -1,1 +1,59 @@
+#datepicker1, #datepicker2 {
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    width: 14.28%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+.month-selector {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+.month-selector:hover {
+    background-color: yellow;
+    color: red;
+}
+
+thead th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+td {
+    cursor: pointer;
+}
+
+td.not-in-month {
+    color: #aaa;
+    pointer-events: none;
+    cursor: default;
+}
+
+td:hover {
+    background-color: yellow;
+    color: red;
+}
 
